@@ -10,8 +10,17 @@ export default function Home() {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>
-          Hi! I'm Yuki. I'm a university student and a web engineer(Ruby on
-          Rails, React). You can contact me on Twitter.
+          Hi! I'm <span style={{ fontWeight: 'bold' }}>Yuki</span>. I'm a
+          university student and a web engineer(Ruby on Rails, React). You can
+          contact me on{' '}
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://twitter.com/yukinissie"
+          >
+            Twitter
+          </a>
+          .
         </p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
